@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-04-20 14:30:48
+ * @version $Id$
+ * TODOS LOS CRÉDITOS DEL MUNDO AL USUARIO "STICKERS" QUE OFRECE LA SOLUCIÓN A LO QUE YO BUSCABA EN ESTA PÁGINA: 
+https://stackoverflow.com/questions/4069734/fixed-header-footer-with-scrollable-content; 
+*/
+
+/* Borrado de estilos previos. */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+table {border-collapse: collapse; border-spacing: 0;}
+td, th, caption {font-weight: normal; text-align: left;}
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* Fin del borrado de estilos previos. */
+	 
+html, body {
+	height: 100%;	/* Para que el cuerpo ocupe todo el alto de la ventana del navegador. */
+	margin: 0;
+	padding: 0;
+	/* Un tipo de letra para toda l página. */	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+	color: #F2F2F2;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Un gran contenedor que ocupa toda la pantalla y que contendrá a todos los demás. */
+.total {
+	height: 100%;
+	width: 100%;
+	display: table;		/* Para que lo que coloquemos dentro se distribuya como en una tabla. */
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white; 
+	box-sizing: border-box; 
+}
+
+.cabecera, .contenido, .pie {
+	display: table-row;
+}
+
+#boton {
+	color: #F2F2F2;
+	font-size: 1.1em;
+	font-weight: bold;
+	border: none;				/* Para que no se vea que es un botón, oculto los bordes... */
+	background: none;		/* ...y lo dejo transparente, para . */
+}
+
+.cabecera #navegacion {
+	float: right;
+	height: 56px;
+}
+
+.cabecera #navegacion table {
+	padding: 8px;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+.cabecera #navegacion td {
+	padding: 3px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.cabecera #navegacion td:hover {
+	/*border: 3px solid white;*/
+	background-color: black;
+}
+
+.interior {
+	display: table-cell;
+}
+
+.cabecera, .pie {
+	/* COLOR. En código HEX y aparte el atributo opacity: */
+	/* 
+	background-color: #6D6E69;
+	opacity: 0.9;
+	*/
+	/* COLOR. En código RGBA (Red, Green, Blue, Alpha), que incluye la transparencia (alpha).*/
+	background-color:rgba(109, 110, 105, 1);
+	color: #F2F2F2;
+}
+
+.contenido {
+	background-color: black;
+}
+
+.cabecera .interior {
+	/*
+	border: 2px solid red;
+	border-radius: 15px;
+	box-sizing: border-box;*/	/* Para que el borde se desarrolle hacia ADENTRO del contenedor. */
+	border-bottom: 1px solid white;
+}
+
+.cabecera #titulo {
+	float: left;
+	height: 56px;
+	line-height: 56px;
+	padding-left: 15px;
+}
+
+.cabecera h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.contenido .interior {
+	height: 100%;
+	position: relative;
+}
+
+#map {
+	height: 100%;  /* Por defecto, un contenedor ocupa todo el ancho del elemento padre. Con esto se consigue que además ocupe todo el alto. */
+}
+
+.pie {
+	text-align: center;
+	font-weight: bold;
+	font-size: .8em;
+	line-height: 3em;
+}
+
+.pie .interior {
+	border-top: 1px solid white;
+}
+
+/* PARA EL CUADRO DE LA LEYENDA. */
+.info {
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+
+.legend {
+	text-align: left;
+	line-height: 18px;
+	color: #555;
+}
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 1;
+}
+.legend .circle {
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 7px;
+	height: 7px;
+	margin-top: 8px;
+}
+/* FIN DE LO NECESARIO PARA EL CUADRO DE LA LEYENDA. */
+
+/* PARA EL PLUGIN "leaflet-sidebar-v2" */
+.lorem {
+	font-style: italic;
+	text-align: justify;
+	color: #AAA;
+}
+/* FIN DE LO NECESARIO PARA EL PLUGIN "leaflet-sidebar-v2" */
+
+/* PARA ALGUNOS POPUPS */
+h1.derecha {text-align: right}
+/* FIN DE LO NECESARIO PARA ALGUNOS POPUPS */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+

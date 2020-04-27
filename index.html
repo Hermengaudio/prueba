@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es"> 
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta charset="utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+<meta name="author" content="Luis Alcántara Cruz" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="galeria.css" /> 
+<link rel="shortcut icon" href="" /> 
+<title>Galería</title> 
+<style></style>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+<link rel="stylesheet" href="vendor/Leaflet.CoordinatedImagePreview-master/dist/coordinatedimagepreview.min.css" /> 
+
+<link rel="stylesheet" href="vendor/lightbox2-dev/dist/css/lightbox.min.css" /> 
+
+</head>
+<body>
+<div class='total'>
+
+	<div class='cabecera'>
+
+		<div class="interior">
+			<div id="titulo">
+				<h1>Rincones de La Línea</h1>
+			</div>
+		</div>
+	</div>
+	<div class='contenido'>
+		<div class="interior">
+			<div id='map'></div>
+			<!-- El contenedor para la galería de fotos.-->
+			<div id='coordinatedImagePreviewControlContainer'></div>		
+		</div>
+	</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+
+<script
+        src="https://code.jquery.com/jquery-3.5.0.js"
+        integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+        crossorigin="anonymous"></script>
+
+<script src="vendor/leaflet-providers-master/leaflet-providers.js"></script>
+
+<script src="vendor/Leaflet.CoordinatedImagePreview-master/dist/coordinatedimagepreview.min.js"></script> 
+
+<script src="http://maximeh.github.io/leaflet.bouncemarker/bouncemarker.js"></script>
+
+<script src="vendor/lightbox2-dev/dist/js/lightbox.min.js"></script> 
+<script src="galeria.js"></script> 
+</body>
+</html>

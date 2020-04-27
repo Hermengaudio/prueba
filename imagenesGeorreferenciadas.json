@@ -1,0 +1,95 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.35099, 36.16056
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/Ayuntamiento_de_la_Línea_de_la_Concepción.jpg",
+				"thumbnailLink": "imagenesGeorreferenciadas/Ayuntamiento_de_la_Línea_de_la_Concepción.jpg",
+				"title": "Museo Cruz Herrera",
+				"description": "Museo Cruz Herrera"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.35438, 36.16015
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/cama.jpeg",
+				"thumbnailLink": "imagenesGeorreferenciadas/cama.jpeg",
+				"title": "Monumento Camarón",
+				"description": "Monumento Camarón"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.35145, 36.16229
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/la-linea-de-la-concepcion-museo-santuario-de-la-inmaculada-concepcion.jpg",
+				"thumbnailLink": "imagenesGeorreferenciadas/la-linea-de-la-concepcion-museo-santuario-de-la-inmaculada-concepcion.jpg",
+				"title": "Iglesia Inmaculada Concepción",
+				"description": "Iglesia Inmaculada Concepción"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.34775, 36.16117
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/la-linea-de-la-concepcion-museo-municipal-del-istmo.jpg",
+				"thumbnailLink": "imagenesGeorreferenciadas/la-linea-de-la-concepcion-museo-municipal-del-istmo.jpg",
+				"title": "Museo del Istmo",
+				"description": "Museo del Istmo"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.34831, 36.15617
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/monumento_al_trabajador_transfronterizo_en_la_linea.jpg",
+				"thumbnailLink": "imagenesGeorreferenciadas/monumento_al_trabajador_transfronterizo_en_la_linea.jpg",
+				"title": "Monumento al trabajador español en Gibraltar",
+				"description": "Monumento al trabajador español en Gibraltar"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.32558, 36.20824
+				]
+			},
+			"properties": {
+				"imageLink": "imagenesGeorreferenciadas/torrenueva.jpg",
+				"thumbnailLink": "imagenesGeorreferenciadas/torrenueva.jpg",
+				"title": "Torre Nueva",
+				"description": "Torre Nueva"
+			}
+		}
+	]
+}
